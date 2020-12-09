@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+
+  background: url("https://images.unsplash.com/photo-1522290668918-a3d1451f87b9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80")
+    no-repeat center center/cover;
+
+  background-color: #333;
+}
+
+main {
+  max-width: 960px;
+  margin: auto;
+  color: #fff;
+  padding: 2rem;
+}
+
+.navButton {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: black;
+  color: white;
+  margin: 2rem 0.5rem;
+  cursor: pointer;
+}
+
+.mainDescription {
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  max-width: 650px;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+
+.mainArea {
+  padding: 1.5rem 0;
+}
+
+.mainDescription p {
+  font-weight: 600;
+  line-height: 1.4rem;
+}
+
+footer {
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 500px) {
+  /* .App {
+    max-width: 100%;
+    margin: auto;
+    color: #fff;
+    overflow: auto;
+  } */
+
+  .image {
+    display: block;
+    max-width: 320px;
+    margin: auto;
+    border-radius: 0.5rem;
+  }
+}
