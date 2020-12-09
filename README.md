@@ -1,2 +1,3 @@
 # mumbai-tour-recommendation-app
-Created with CodeSandbox
+
+This app lists all the famous tourist places, food items, mode of transportation & festivals that are widely celebrated in the city of Mumbai.
